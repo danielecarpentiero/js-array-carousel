@@ -7,7 +7,7 @@ const items = document.querySelector(".items");
 let currentImage = 0;
 
 /* inizializzazione ciclo for per le immagini */
-for (let i = 0; i < images.length; i++){
+for (let i = 0; i < images.length; i++){ 
     const item = document.createElement("div");
     item.classList.add('item');
     

@@ -1,6 +1,6 @@
 # Carosello Mono Array
 
-_MILESTONE 1_
+**MILESTONE 1**
 
 1. dichiaro un array con tutte le immagini scaricate
 2. dichiaro una variabile prev, dove registro in memoria la classe ".prev" esistente nel documento HTML
@@ -12,7 +12,7 @@ _MILESTONE 1_
 7. dichiaro una variabile "img", che crea nell'HTML un'immagine, con source le immagini in archivio
 8. ad ogni div contenitore con classe "item" assegno un'immagine e ad ogni div padre "items" assegno il figlio "item"
 
-_MILESTONE 2_
+**MILESTONE 2**
 
 1. dichiaro una variabile "itemsAll", che registra in memoria tutte le classi ".item" nel documento HTML
 2. con la funzione "addEventListener", al click:

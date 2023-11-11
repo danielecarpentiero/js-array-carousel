@@ -23,7 +23,7 @@ for (let i = 0; i < images.length; i++){
     items.append(item);
 }
 
-/* selezioni tutte le classi che contengono le immagini */
+/* seleziono tutte le classi che contengono le immagini */
 const itemsAll = document.querySelectorAll('.item');
 
 /* al click su prev visualizza l'immagine precedente */

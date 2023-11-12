@@ -18,3 +18,12 @@
 2. con la funzione "addEventListener", al click:
    - Per quanto riguarda _prev_: se l'immagine corrente è maggiore di 0 (per non andare a -1), allora rimuovi la classe active che serve a visualizzare l'immagine nel CSS, torna all'immagine precedente e assegna al div ".item" la classe active.
    - per quanto riguarda _next_: se l'immagine corrente è minore della lunghezza dell'array (con -1 perché l'array parte da 0), allora rimuovi la classe "active", passa alla prossima immagine e assegna la classe "active" al div ".item" successivo.
+
+**BONUS**
+
+1. sono state aggiunte in un file CSS i container dei thumbnails e relativa opacità della classe "active"
+2. in JavaScript:
+   - se la thumbnail è quella attiva, metti l'opacità a 1
+   - altrimenti, metti l'opacità a 0.6
+3. Per il carousel:
+   - se la thumbnail è quella attiva, modifica la classe active corrente del carousel

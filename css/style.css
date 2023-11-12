@@ -12,6 +12,27 @@
     align-items: center;
 }
 
+.tb-container{
+    height: 18.75rem;
+    width: 15%;
+}
+
+.tb{
+    width: 100%;
+    height: 20%;
+    opacity: 0.6;
+}
+
+.tb img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tb.active{
+    opacity: 1;
+}
+
 .items {
     position: relative;
     width: 700px;
